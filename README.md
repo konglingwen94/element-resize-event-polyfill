@@ -25,7 +25,7 @@ Example in Browser
 ```HTML
 
 <head>
-  <script src="element-resize-event-polyfill.umd.js"></script>
+  <script src="element-resize-event-polyfill.umd.min.js"></script>
 </head>
 
 <body>

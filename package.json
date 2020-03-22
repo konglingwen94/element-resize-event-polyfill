@@ -10,7 +10,8 @@
   "keywords": [
     "resize",
     "element-resize",
-    "resize-event"
+    "resize-event",
+    "element-resize-observer"
   ],
   "author": "KongLingWen",
   "license": "ISC",
