@@ -7,8 +7,8 @@
     "test:vue": "vue-cli-service serve test/main.js",
     "build": "vue-cli-service build --target lib  src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["resize","element-resize","resize-event"],
+  "author": "KongLingWen",
   "license": "ISC",
   "dependencies": {
     "resize-observer-polyfill": "^1.5.1"
