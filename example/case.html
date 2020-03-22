@@ -13,16 +13,34 @@
         resize: both;
         overflow: auto;
       }
+      .marker {
+        background: pink;
+      }
     </style>
     <title>Document</title>
   </head>
   <body>
-    <div class="container" id="container"></div>
+    <div class="container" id="container">
+      <span class="marker"></span>
+    </div>
   </body>
   <script>
     const elm = document.getElementById('container')
+    const marker = document.querySelector('.marker')
+
+    function markSize(el) {
+      const width = el.clientWidth
+      const height = el.clientHeight
+      const marker = document.querySelector('.marker')
+      console.log(`The size of the target element is width:${width},height:${height}`)
+      marker.innerHTML = `${width}*${height}`
+    }
+
+    markSize(elm)
+
     elm.addEventListener('resize', function(e) {
       console.log('Trigger resizable event by  listener one')
+      markSize(e.target)
     })
     elm.addEventListener('resize', function(e) {
       console.log('Trigger resizable event by  listener two')

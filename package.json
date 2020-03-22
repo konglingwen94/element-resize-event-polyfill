@@ -4,7 +4,7 @@
   "description": "Native event listener polyfill to capture element size changes",
   "main": "dist/index.js",
   "scripts": {
-    "test": "vue serve example/App.vue",
+    "test:vue": "vue-cli-service serve test/main.js",
     "build": "vue-cli-service build --target lib  src/index.js"
   },
   "keywords": [],
