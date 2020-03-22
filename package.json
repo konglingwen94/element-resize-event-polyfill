@@ -1,13 +1,17 @@
 {
   "name": "element-resize-event-polyfill",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Native event listener polyfill to capture element size changes",
   "main": "dist/element-resize-event-polyfill.umd.js",
   "scripts": {
     "test:vue": "vue-cli-service serve test/main.js",
     "build": "vue-cli-service build --target lib  src/index.js"
   },
-  "keywords": ["resize","element-resize","resize-event"],
+  "keywords": [
+    "resize",
+    "element-resize",
+    "resize-event"
+  ],
   "author": "KongLingWen",
   "license": "ISC",
   "dependencies": {
