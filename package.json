@@ -1,6 +1,6 @@
 {
   "name": "element-resize-event-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Native event listener polyfill to capture element size changes",
   "main": "dist/index.js",
   "scripts": {
