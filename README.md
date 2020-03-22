@@ -68,6 +68,4 @@ export default {
 </script>
 ```
 
-### Dependencies
-
-The library depends on [resize-observer-polyfill]('https://github.com/que-etc/resize-observer-polyfill')
+ 
