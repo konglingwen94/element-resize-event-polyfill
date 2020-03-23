@@ -20,7 +20,7 @@ const elm = document.getElementById('#elm')
 elm.addEventListener('resize', handler)
 ```
 
-Example in Browser
+Example in browser
 
 ```HTML
 
@@ -29,7 +29,7 @@ Example in Browser
 </head>
 
 <body>
-  <div id="elm">My size can be captured</div>
+  <div id="elm">My size changes can be captured</div>
 </body>
 
 <script>
