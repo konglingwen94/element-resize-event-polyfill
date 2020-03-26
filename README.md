@@ -34,7 +34,7 @@ Example in browser
 
 <script>
   const elm=document.getElementById("elm")
-  
+
   // case one
   elm.addEventListener("resize",function(e){
     // Your logic
@@ -68,4 +68,20 @@ export default {
 </script>
 ```
 
- 
+> Example in cdn
+
+```HTML
+<script src="https://unpkg.com/element-resize-event-polyfill@1.0.5/dist/element-resize-event-polyfill.umd.min.js"></script>
+
+<div class="container" id="container">
+</div>
+
+<script>
+  const elm = document.getElementById('container')
+
+  elm.addEventListener('resize', function(e) {
+    // Your code
+  })
+
+</script>
+
