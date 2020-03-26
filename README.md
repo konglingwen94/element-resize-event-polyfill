@@ -2,6 +2,9 @@
 
 Native event listener polyfill to capture element size changes
 
+## Live Demo 
+>https://konglingwen94.github.io/element-resize-event-polyfill/dist/demo.html
+
 ## Install
 
 ```bash
