@@ -1,10 +1,33 @@
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <title>element-resize-event-polyfill demo</title>
 <script src="./element-resize-event-polyfill.umd.js"></script>
+<style>
+  div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    resize: both;
+    overflow: auto;
+    position: relative;
+  }
+  .marker {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: pink;
+  }
+</style>
 
-<link rel="stylesheet" href="./element-resize-event-polyfill.css">
-
+<div id="box">
+  <span class="marker">300*300</span>
+</div>
 
 <script>
-console.log(element-resize-event-polyfill)
+  box.onresize = function onResize(e) {
+    const width = e.target.clientWidth
+    const height = e.target.clientHeight
+    document.querySelector('.marker').innerHTML = `${width}*${height} `
+    console.log(e.target, `${width}*${height} `)
+  }
+  // console.log(element-resize-event-polyfill)
 </script>
